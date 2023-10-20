@@ -1,0 +1,33 @@
+1.floor method.
+
+>> The java.lang.Math.floor() returns the double value that is less than or equal to the argument and is equal to the nearest mathematical integer.
+   or
+   The java.lang.Math.floor() is used to find the largest integer value which is less than or equal to the argument and is equal to the mathematical integer of a double value.
+   Example:
+            Math.floor(4.3); -> 4.0
+            Math.floor(-4.3); -> -5.0
+            Math.floor(-4.9); -> -5.0
+            Math.floor(4.9); -> 4.0
+ Note:
+
+   If the argument is Integer, then the result is Integer.
+   If the argument is NaN or an infinity or positive zero or negative zero, then the result is the same as the argument.
+
+2.Ceil method.
+
+>> The java.lang.Math.ceil() returns the double value that is greater than or equal to the argument and is equal to the nearest mathematical integer.
+   or
+   The java.lang.Math.ceil () is used to find the smallest integer value that is greater than or equal to the argument or mathematical integer.
+   Example: Math.ceil(value);
+
+           double a = 4.3; ->> 5.0
+           double b = 1.0 / 0; ->> Infinity
+           double c = 0.0; ->> 0.0
+           double d = -0.0; ->> -0.0
+           double e = -0.12; ->> -0.0
+
+   Note:
+
+   If the argument is Integer, then the result is Integer.
+   If the argument is NaN or an infinity or positive zero or negative zero, then the result is the same as the argument.
+   If the argument value is less than zero but greater than -1.0, then the result is negative zero.
